@@ -4,8 +4,8 @@ app_publisher = "Aaran Software"
 app_description = "Mazsone – Next-gen ecommerce platform"
 app_email = "info@aaran.org"
 app_license = "mit"
-allow_rest_api = True
-before_request = ["mazsone_ecart.cors.set_cors_headers"]
+# allow_rest_api = True
+# before_request = ["mazsone_ecart.cors.set_cors_headers"]
 
 # Apps
 # ------------------
