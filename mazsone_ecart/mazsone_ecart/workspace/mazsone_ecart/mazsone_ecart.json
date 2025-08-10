@@ -1,7 +1,7 @@
 {
  "app": "mazsone_ecart",
  "charts": [],
- "content": "[{\"id\":\"WjcRQVzht3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mazsone Ecart</span>\",\"col\":12}},{\"id\":\"Qhf-jzM_M7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}}]",
+ "content": "[{\"id\":\"WjcRQVzht3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mazsone Ecart</span>\",\"col\":12}},{\"id\":\"jnOThMka6r\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Shop Catalog\",\"col\":4}},{\"id\":\"Qhf-jzM_M7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}}]",
  "creation": "2025-08-10 17:45:08.017015",
  "custom_blocks": [],
  "docstatus": 0,
@@ -26,7 +26,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-08-10 17:50:39.978846",
+ "modified": "2025-08-10 18:03:19.991543",
  "modified_by": "Administrator",
  "module": "Mazsone Ecart",
  "name": "Mazsone Ecart",
@@ -43,6 +43,14 @@
    "doc_view": "List",
    "label": "Item",
    "link_to": "Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Shop Catalog",
+   "link_to": "shop catalog",
    "stats_filter": "[]",
    "type": "DocType"
   }
