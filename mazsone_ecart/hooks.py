@@ -4,8 +4,6 @@ app_publisher = "Aaran Software"
 app_description = "Mazsone – Next-gen ecommerce platform"
 app_email = "info@aaran.org"
 app_license = "mit"
-# allow_rest_api = True
-# before_request = ["mazsone_ecart.cors.set_cors_headers"]
 
 # Apps
 # ------------------
@@ -18,8 +16,8 @@ add_to_apps_screen = [
 		"name": "mazsone_ecart",
 		"logo": "/assets/mazsone_ecart/images/mazsone_logo.png",
 		"title": "Mazsone Ecart",
-		"route": "/mazsone_ecart",
-		"has_permission": "mazsone_ecart.api.permission.has_app_permission"
+		"route": "/mazsone",
+		# "has_permission": "mazsone_ecart.api.permission.has_app_permission"
 	}
 ]
 
