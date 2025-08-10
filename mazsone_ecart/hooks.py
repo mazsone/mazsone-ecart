@@ -16,7 +16,7 @@ add_to_apps_screen = [
 		"name": "mazsone_ecart",
 		"logo": "/assets/mazsone_ecart/images/mazsone_logo.png",
 		"title": "Mazsone Ecart",
-		"route": "/mazsone",
+		"route": "/app/mazsone-ecart",
 		# "has_permission": "mazsone_ecart.api.permission.has_app_permission"
 	}
 ]
