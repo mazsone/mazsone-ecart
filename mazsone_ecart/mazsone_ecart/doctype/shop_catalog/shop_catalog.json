@@ -12,14 +12,14 @@
   "item_code",
   "item_name",
   "item_image",
-  "display_name",
-  "short_description",
-  "column_break_mjpq",
   "item_group",
   "brand",
+  "column_break_mjpq",
+  "display_name",
   "stock_qty",
   "price",
-  "demo",
+  "section_break_yigs",
+  "item_description",
   "section_break_bczw",
   "attach_details_column",
   "image",
@@ -71,11 +71,6 @@
    "unique": 1
   },
   {
-   "fieldname": "short_description",
-   "fieldtype": "Data",
-   "label": "Short Description"
-  },
-  {
    "fieldname": "column_break_mjpq",
    "fieldtype": "Column Break"
   },
@@ -115,11 +110,6 @@
    "label": "Item Image",
    "make_attachment_public": 1,
    "options": "Attach image"
-  },
-  {
-   "fieldname": "demo",
-   "fieldtype": "Data",
-   "label": "demo"
   },
   {
    "fieldname": "section_break_bczw",
@@ -239,6 +229,7 @@
    "fieldname": "seo_keywords",
    "fieldtype": "Small Text",
    "label": "SEO Keywords",
+   "max_height": "5rem",
    "placeholder": "Note: Enter keywords like \"hp, laptop, 16gb ram, ssd\""
   },
   {
@@ -250,6 +241,16 @@
    "fieldname": "meta_description",
    "fieldtype": "Small Text",
    "label": "Meta Description"
+  },
+  {
+   "fetch_from": "item_code.description",
+   "fieldname": "item_description",
+   "fieldtype": "Text Editor",
+   "label": "Item Description"
+  },
+  {
+   "fieldname": "section_break_yigs",
+   "fieldtype": "Section Break"
   }
  ],
  "grid_page_length": 50,
@@ -257,7 +258,7 @@
  "index_web_pages_for_search": 1,
  "links": [],
  "max_attachments": 6,
- "modified": "2025-08-11 09:29:06.880075",
+ "modified": "2025-08-11 09:57:27.186661",
  "modified_by": "Administrator",
  "module": "Mazsone Ecart",
  "name": "shop catalog",
