@@ -18,6 +18,7 @@
   "display_name",
   "stock_qty",
   "price",
+  "demo_1",
   "section_break_yigs",
   "item_description",
   "section_break_bczw",
@@ -251,6 +252,11 @@
   {
    "fieldname": "section_break_yigs",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "demo_1",
+   "fieldtype": "Data",
+   "label": "Demo 1"
   }
  ],
  "grid_page_length": 50,
@@ -258,7 +264,7 @@
  "index_web_pages_for_search": 1,
  "links": [],
  "max_attachments": 6,
- "modified": "2025-08-11 11:34:31.071581",
+ "modified": "2025-08-11 13:29:43.072819",
  "modified_by": "Administrator",
  "module": "Mazsone Ecart",
  "name": "shop catalog",
