@@ -8,34 +8,66 @@
  "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
+  "product_details_section",
   "item_code",
   "item_name",
+  "item_image",
   "display_name",
   "short_description",
-  "category",
   "column_break_mjpq",
   "item_group",
+  "brand",
   "stock_qty",
   "price",
-  "brand"
+  "demo",
+  "section_break_bczw",
+  "attach_details_column",
+  "image",
+  "image_2",
+  "image_3",
+  "image_4",
+  "image_5",
+  "column_break_vxsq",
+  "product_offer",
+  "slider_offer",
+  "product_discount",
+  "column_break_zvnm",
+  "is_slider",
+  "slider_discount",
+  "is_top_rated",
+  "is_popular",
+  "is_discount",
+  "section_break_tfdr",
+  "description",
+  "product_seo_details_section",
+  "slug",
+  "seo_caption",
+  "seo_keywords",
+  "meta_title",
+  "meta_description"
  ],
  "fields": [
   {
    "fieldname": "item_code",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Item Code",
-   "options": "Item"
+   "options": "Item",
+   "reqd": 1
   },
   {
    "fetch_from": "item_code.item_name",
    "fieldname": "item_name",
    "fieldtype": "Data",
-   "label": "Item Name"
+   "label": "Item Name",
+   "unique": 1
   },
   {
    "fieldname": "display_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Display Name",
+   "reqd": 1,
    "unique": 1
   },
   {
@@ -50,35 +82,182 @@
   {
    "fetch_from": "item_code.item_group",
    "fieldname": "item_group",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "label": "Item Group",
    "options": "Item"
   },
   {
    "fieldname": "stock_qty",
-   "fieldtype": "Data",
+   "fieldtype": "Int",
    "label": "Stock Qty"
   },
   {
    "fieldname": "price",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "label": "Price"
   },
   {
+   "fetch_from": "item_code.brand",
    "fieldname": "brand",
    "fieldtype": "Data",
-   "label": "Brand"
+   "label": "Brand",
+   "options": "Brand"
   },
   {
-   "fieldname": "category",
+   "fieldname": "product_details_section",
+   "fieldtype": "Section Break",
+   "label": "Product Details"
+  },
+  {
+   "fetch_from": "item_code.image",
+   "fieldname": "item_image",
+   "fieldtype": "Attach Image",
+   "label": "Item Image",
+   "make_attachment_public": 1,
+   "options": "Attach image"
+  },
+  {
+   "fieldname": "demo",
    "fieldtype": "Data",
-   "label": "Category"
+   "label": "demo"
+  },
+  {
+   "fieldname": "section_break_bczw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach_details_column",
+   "fieldtype": "Column Break",
+   "label": "Attach details"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Product Image(default image)"
+  },
+  {
+   "fieldname": "image_2",
+   "fieldtype": "Attach Image",
+   "label": "Image 2"
+  },
+  {
+   "fieldname": "image_3",
+   "fieldtype": "Attach Image",
+   "label": "Image 3"
+  },
+  {
+   "fieldname": "image_4",
+   "fieldtype": "Attach Image",
+   "label": "Image 4"
+  },
+  {
+   "fieldname": "image_5",
+   "fieldtype": "Attach Image",
+   "label": "Image 5"
+  },
+  {
+   "fieldname": "column_break_vxsq",
+   "fieldtype": "Column Break",
+   "label": "Offer & Discount"
+  },
+  {
+   "fieldname": "product_offer",
+   "fieldtype": "Int",
+   "label": "Product Offer"
+  },
+  {
+   "fieldname": "slider_offer",
+   "fieldtype": "Data",
+   "label": "Slider Offer"
+  },
+  {
+   "fieldname": "product_discount",
+   "fieldtype": "Int",
+   "label": "Product Discount"
+  },
+  {
+   "fieldname": "column_break_zvnm",
+   "fieldtype": "Column Break",
+   "label": "Check Values"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_slider",
+   "fieldtype": "Check",
+   "label": "Slider"
+  },
+  {
+   "fieldname": "slider_discount",
+   "fieldtype": "Data",
+   "label": "Slider Discount"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_top_rated",
+   "fieldtype": "Check",
+   "label": "Top rated"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_popular",
+   "fieldtype": "Check",
+   "label": "Popular"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_discount",
+   "fieldtype": "Check",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "section_break_tfdr",
+   "fieldtype": "Section Break",
+   "label": "Product Description"
+  },
+  {
+   "fetch_from": "item_code.description",
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "product_seo_details_section",
+   "fieldtype": "Section Break",
+   "label": "Product SEO Details"
+  },
+  {
+   "fieldname": "slug",
+   "fieldtype": "Data",
+   "label": "Seo name"
+  },
+  {
+   "fieldname": "seo_caption",
+   "fieldtype": "Data",
+   "label": "Seo Caption"
+  },
+  {
+   "fieldname": "seo_keywords",
+   "fieldtype": "Small Text",
+   "label": "SEO Keywords",
+   "placeholder": "Note: Enter keywords like \"hp, laptop, 16gb ram, ssd\""
+  },
+  {
+   "fieldname": "meta_title",
+   "fieldtype": "Data",
+   "label": "Meta Title"
+  },
+  {
+   "fieldname": "meta_description",
+   "fieldtype": "Small Text",
+   "label": "Meta Description"
   }
  ],
  "grid_page_length": 50,
+ "image_field": "item_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-10 18:51:03.521472",
+ "max_attachments": 6,
+ "modified": "2025-08-11 09:29:06.880075",
  "modified_by": "Administrator",
  "module": "Mazsone Ecart",
  "name": "shop catalog",
