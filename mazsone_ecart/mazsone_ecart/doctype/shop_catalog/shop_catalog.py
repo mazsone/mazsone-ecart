@@ -39,13 +39,13 @@ def get_product(slug=None, name=None):
 
     # Use get_list to fetch document name by slug
     if slug:
-        result = frappe.get_list("Shop Catalog", filters={"slug": slug}, fields=["name"])
+        result = frappe.get_list("shop catalog", filters={"slug": slug}, fields=["name"])
         if not result:
             frappe.throw("Product not found for slug: " + slug)
         name = result[0].name
 
     # Now get full document by name
-    product = frappe.get_doc("Shop Catalog", name)
+    product = frappe.get_doc("shop catalog", name)
     doc = product.as_dict()
     doc["seo_keywords_list"] = product.get_keywords_list()
 
