@@ -50,3 +50,5 @@ def get_product(slug=None, name=None):
     doc["seo_keywords_list"] = product.get_keywords_list()
 
     return doc
+
+test
