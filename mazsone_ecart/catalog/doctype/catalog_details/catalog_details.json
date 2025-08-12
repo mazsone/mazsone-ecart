@@ -3,7 +3,7 @@
  "allow_rename": 1,
  "autoname": "field:display_name",
  "creation": "2025-08-10 17:29:06.546385",
- "default_view": "Dashboard",
+ "default_view": "List",
  "doctype": "DocType",
  "document_type": "Document",
  "engine": "InnoDB",
@@ -18,28 +18,43 @@
   "display_name",
   "stock_qty",
   "price",
-  "demo_1",
   "section_break_yigs",
   "item_description",
   "section_break_bczw",
   "attach_details_column",
+  "preview_image",
   "image",
+  "column_break_jnsr",
+  "preview_image_1",
   "image_2",
+  "column_break_wjsi",
+  "preview_image_2",
   "image_3",
+  "column_break_fenp",
+  "preview_image_3",
   "image_4",
+  "column_break_zuan",
+  "preview_image_4",
   "image_5",
+  "slider_settings_section",
+  "is_slider",
+  "column_break_smgw",
+  "slider_offer",
+  "slider_discount",
+  "section_break_qhhu",
+  "column_break_zvnm",
+  "is_popular",
+  "is_top_rated",
+  "is_discount",
+  "column_break_rcrh",
   "column_break_vxsq",
   "product_offer",
-  "slider_offer",
   "product_discount",
-  "column_break_zvnm",
-  "is_slider",
-  "slider_discount",
-  "is_top_rated",
-  "is_popular",
-  "is_discount",
   "section_break_tfdr",
   "description",
+  "features_table_section",
+  "spec_header",
+  "catalog_features",
   "product_seo_details_section",
   "slug",
   "seo_caption",
@@ -114,18 +129,17 @@
   },
   {
    "fieldname": "section_break_bczw",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Attach Details"
   },
   {
    "fieldname": "attach_details_column",
-   "fieldtype": "Column Break",
-   "label": "Attach details"
+   "fieldtype": "Column Break"
   },
   {
-   "fetch_from": "item_code.image",
    "fieldname": "image",
    "fieldtype": "Attach Image",
-   "label": "Product Image(default image)"
+   "label": "Image(default image)"
   },
   {
    "fieldname": "image_2",
@@ -170,13 +184,13 @@
   {
    "fieldname": "column_break_zvnm",
    "fieldtype": "Column Break",
-   "label": "Check Values"
+   "label": "Show in (Select any one)"
   },
   {
    "default": "0",
    "fieldname": "is_slider",
    "fieldtype": "Check",
-   "label": "Slider"
+   "label": "Show in Slider"
   },
   {
    "fieldname": "slider_discount",
@@ -254,9 +268,93 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "demo_1",
+   "fieldname": "preview_image",
+   "fieldtype": "Image",
+   "label": "Preview Image ",
+   "max_height": "10rem",
+   "options": "image",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "column_break_jnsr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qhhu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_rcrh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "features_table_section",
+   "fieldtype": "Section Break",
+   "label": "All Spec Details"
+  },
+  {
+   "fieldname": "catalog_features",
+   "fieldtype": "Table",
+   "label": "Catalog Features",
+   "options": "Catalog Features"
+  },
+  {
+   "fieldname": "spec_header",
    "fieldtype": "Data",
-   "label": "Demo 1"
+   "label": "Spec Header Name"
+  },
+  {
+   "fieldname": "column_break_wjsi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "preview_image_1",
+   "fieldtype": "Image",
+   "label": "Preview Image 1",
+   "max_height": "10rem",
+   "options": "image_2",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "preview_image_2",
+   "fieldtype": "Image",
+   "label": "Preview Image 2",
+   "max_height": "10rem",
+   "options": "image_3",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "column_break_fenp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "preview_image_3",
+   "fieldtype": "Image",
+   "label": "Preview Image 3",
+   "max_height": "10rem",
+   "options": "image_4",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "column_break_zuan",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "preview_image_4",
+   "fieldtype": "Image",
+   "label": "Preview Image 4",
+   "max_height": "10rem",
+   "options": "image_5",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "slider_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Slider Settings"
+  },
+  {
+   "fieldname": "column_break_smgw",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
@@ -264,7 +362,7 @@
  "index_web_pages_for_search": 1,
  "links": [],
  "max_attachments": 6,
- "modified": "2025-08-11 13:29:43.072819",
+ "modified": "2025-08-12 18:17:44.827954",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",
