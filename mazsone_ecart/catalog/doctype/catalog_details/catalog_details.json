@@ -1,44 +1,25 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:spec_heading",
- "creation": "2025-08-12 15:00:28.633503",
+ "creation": "2025-08-12 16:25:06.741194",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "spec_heading",
-  "section_break_tvxd",
-  "features"
+  "section_break_mms2"
  ],
  "fields": [
   {
-   "fieldname": "spec_heading",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Spec Heading",
-   "reqd": 1,
-   "unique": 1
-  },
-  {
-   "fieldname": "section_break_tvxd",
+   "fieldname": "section_break_mms2",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "features",
-   "fieldtype": "Table",
-   "label": "Features",
-   "options": "Catalog Features",
-   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-12 15:52:23.808216",
+ "modified": "2025-08-12 16:25:06.741194",
  "modified_by": "Administrator",
  "module": "Catalog",
- "name": "Catalog Spec",
- "naming_rule": "By fieldname",
+ "name": "Catalog Details",
  "owner": "Administrator",
  "permissions": [
   {

@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class CatalogSpec(Document):
+class CatalogDetails(Document):
 	pass
