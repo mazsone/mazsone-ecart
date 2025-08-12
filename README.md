@@ -11,7 +11,7 @@ cd $PATH_TO_YOUR_BENCH
 ```
 
 ```
-bench get-app https://github.com/user-name/mazsone-ecart.git
+bench get-app mazsone_ecart https://github.com/mazsone/mazsone_ecart.git
 ```
 
 ```
