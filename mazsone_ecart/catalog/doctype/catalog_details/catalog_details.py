@@ -16,7 +16,31 @@ def slugify(text):
     return text.strip('-')
 
 
+# Helper function (outside the class)
+def delete_file(file_url):
+    if file_url:
+        file_doc = frappe.db.get_value("File", {"file_url": file_url}, "name")
+        if file_doc:
+            frappe.delete_doc("File", file_doc, ignore_permissions=True)
+
 class CatalogDetails(Document):
+
+	def validate(self):
+		if self.get_doc_before_save():
+			old_doc = self.get_doc_before_save()
+			for field in self.meta.fields:
+				if field.fieldtype in ("Attach", "Attach Image"):
+					old_file = old_doc.get(field.fieldname)
+					new_file = self.get(field.fieldname)
+					if old_file and not new_file:
+						delete_file(old_file)
+
+	def on_trash(self):
+		for field in self.meta.fields:
+			if field.fieldtype in ("Attach", "Attach Image"):
+				file_url = self.get(field.fieldname)
+				if file_url:
+					delete_file(file_url)
 
 	# Auto-generate slug from item_name
 	def autoname(self):

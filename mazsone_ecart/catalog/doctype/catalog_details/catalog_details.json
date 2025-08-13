@@ -18,25 +18,24 @@
   "display_name",
   "stock_qty",
   "price",
-  "image",
   "section_break_yigs",
   "item_description",
   "section_break_bczw",
   "attach_details_column",
-  "preview_image",
   "image_1",
+  "attach_1",
   "column_break_jnsr",
-  "preview_image_1",
   "image_2",
+  "attach_2",
   "column_break_wjsi",
-  "preview_image_2",
   "image_3",
+  "attach_3",
   "column_break_fenp",
-  "preview_image_3",
   "image_4",
+  "attach_4",
   "column_break_zuan",
-  "preview_image_4",
   "image_5",
+  "attach_5",
   "section_break_qhhu",
   "column_break_rcrh",
   "is_slider",
@@ -54,20 +53,20 @@
   "section_break_ldtk",
   "manufacturer_label",
   "section_break_gzve",
-  "desc_image_view_1",
-  "desc_image_1",
+  "image_6",
+  "attach_6",
   "column_break_wbvz",
-  "desc_image_view_2",
-  "desc_image_2",
+  "image_7",
+  "attach_7",
   "column_break_kuzm",
-  "desc_image_view_3",
-  "desc_image_3",
+  "image_8",
+  "attach_8",
   "column_break_vwec",
-  "desc_image_view_4",
-  "desc_image_4",
+  "image_9",
+  "attach_9",
   "column_break_adno",
-  "desc_image_view_5",
-  "desc_image_5",
+  "image_10",
+  "attach_10",
   "features_table_section",
   "spec_header",
   "catalog_features",
@@ -154,23 +153,35 @@
   },
   {
    "fieldname": "image_2",
-   "fieldtype": "Attach Image",
-   "label": "Image 2"
+   "fieldtype": "Image",
+   "label": "Preview Image 2",
+   "max_height": "10rem",
+   "options": "attach_2",
+   "width": "10rem"
   },
   {
    "fieldname": "image_3",
-   "fieldtype": "Attach Image",
-   "label": "Image 3"
+   "fieldtype": "Image",
+   "label": "Preview Image 3",
+   "max_height": "10rem",
+   "options": "attach_3",
+   "width": "10rem"
   },
   {
    "fieldname": "image_4",
-   "fieldtype": "Attach Image",
-   "label": "Image 4"
+   "fieldtype": "Image",
+   "label": "Preview Image 4",
+   "max_height": "10rem",
+   "options": "attach_4",
+   "width": "10rem"
   },
   {
    "fieldname": "image_5",
-   "fieldtype": "Attach Image",
-   "label": "Image 5"
+   "fieldtype": "Image",
+   "label": "Preview Image 5",
+   "max_height": "10rem",
+   "options": "attach_5",
+   "width": "10rem"
   },
   {
    "fieldname": "column_break_vxsq",
@@ -269,14 +280,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "preview_image",
-   "fieldtype": "Image",
-   "label": "Preview Image ",
-   "max_height": "10rem",
-   "options": "image",
-   "width": "10rem"
-  },
-  {
    "fieldname": "column_break_jnsr",
    "fieldtype": "Column Break"
   },
@@ -309,62 +312,17 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "preview_image_1",
-   "fieldtype": "Image",
-   "label": "Preview Image 1",
-   "max_height": "10rem",
-   "options": "image_2",
-   "width": "10rem"
-  },
-  {
-   "fieldname": "preview_image_2",
-   "fieldtype": "Image",
-   "label": "Preview Image 2",
-   "max_height": "10rem",
-   "options": "image_3",
-   "width": "10rem"
-  },
-  {
    "fieldname": "column_break_fenp",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "preview_image_3",
-   "fieldtype": "Image",
-   "label": "Preview Image 3",
-   "max_height": "10rem",
-   "options": "image_4",
-   "width": "10rem"
   },
   {
    "fieldname": "column_break_zuan",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "preview_image_4",
-   "fieldtype": "Image",
-   "label": "Preview Image 4",
-   "max_height": "10rem",
-   "options": "image_5",
-   "width": "10rem"
-  },
-  {
    "fieldname": "section_break_gzve",
    "fieldtype": "Section Break",
    "label": "Manufacturer Images"
-  },
-  {
-   "fieldname": "desc_image_view_1",
-   "fieldtype": "Image",
-   "label": "Describtion Image",
-   "max_height": "10rem",
-   "options": "image",
-   "width": "10rem"
-  },
-  {
-   "fieldname": "desc_image_1",
-   "fieldtype": "Attach Image",
-   "label": "Desc Image"
   },
   {
    "fieldname": "section_break_ldtk",
@@ -381,68 +339,16 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "desc_image_view_2",
-   "fieldtype": "Image",
-   "label": "Image 2",
-   "max_height": "10rem",
-   "options": "image",
-   "width": "10rem"
-  },
-  {
-   "fieldname": "desc_image_2",
-   "fieldtype": "Attach Image",
-   "label": "Image 2"
-  },
-  {
    "fieldname": "column_break_kuzm",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "desc_image_view_3",
-   "fieldtype": "Image",
-   "label": "Image 3",
-   "max_height": "10rem",
-   "options": "image",
-   "width": "10rem"
-  },
-  {
-   "fieldname": "desc_image_3",
-   "fieldtype": "Attach Image",
-   "label": "Image 3"
   },
   {
    "fieldname": "column_break_vwec",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "desc_image_view_4",
-   "fieldtype": "Image",
-   "label": "Image 4",
-   "max_height": "10rem",
-   "options": "image",
-   "width": "10rem"
-  },
-  {
-   "fieldname": "desc_image_4",
-   "fieldtype": "Attach Image",
-   "label": "Image 4"
-  },
-  {
    "fieldname": "column_break_adno",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "desc_image_view_5",
-   "fieldtype": "Image",
-   "label": "Image 5",
-   "max_height": "10rem",
-   "options": "image",
-   "width": "10rem"
-  },
-  {
-   "fieldname": "desc_image_5",
-   "fieldtype": "Attach Image",
-   "label": "Image 5"
   },
   {
    "default": "0",
@@ -458,20 +364,114 @@
   },
   {
    "fieldname": "image_1",
+   "fieldtype": "Image",
+   "label": "Preview Image ",
+   "max_height": "10rem",
+   "options": "attach_1",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "attach_1",
    "fieldtype": "Attach Image",
    "label": "Image 1"
   },
   {
-   "fieldname": "image",
-   "fieldtype": "Image"
+   "fieldname": "attach_2",
+   "fieldtype": "Attach Image",
+   "label": "Image 2",
+   "options": "attach_2"
+  },
+  {
+   "fieldname": "attach_3",
+   "fieldtype": "Attach Image",
+   "label": "Image 3",
+   "options": "attach_3"
+  },
+  {
+   "fieldname": "attach_4",
+   "fieldtype": "Attach Image",
+   "label": "Image 4",
+   "options": "attach_4"
+  },
+  {
+   "fieldname": "attach_5",
+   "fieldtype": "Attach Image",
+   "label": "Image 5",
+   "options": "attach_5"
+  },
+  {
+   "fieldname": "image_6",
+   "fieldtype": "Image",
+   "label": "Preview Image 6",
+   "max_height": "10rem",
+   "options": "attach_6",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "attach_6",
+   "fieldtype": "Attach Image",
+   "label": "Image 6"
+  },
+  {
+   "fieldname": "image_7",
+   "fieldtype": "Image",
+   "label": "Preview Image 7",
+   "max_height": "10rem",
+   "options": "attach_7",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "attach_7",
+   "fieldtype": "Attach Image",
+   "label": "Image 7",
+   "options": "attach_7"
+  },
+  {
+   "fieldname": "image_8",
+   "fieldtype": "Image",
+   "label": "Preview Image 8",
+   "max_height": "10rem",
+   "options": "attach_8",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "attach_8",
+   "fieldtype": "Attach Image",
+   "label": "Image 8"
+  },
+  {
+   "fieldname": "image_9",
+   "fieldtype": "Image",
+   "label": "Preview Image 9",
+   "max_height": "10rem",
+   "options": "attach_9",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "attach_9",
+   "fieldtype": "Attach Image",
+   "label": "Image 9"
+  },
+  {
+   "fieldname": "image_10",
+   "fieldtype": "Image",
+   "label": "Preview Image 10",
+   "max_height": "10rem",
+   "options": "attach_10",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "attach_10",
+   "fieldtype": "Attach Image",
+   "label": "Image 10"
   }
  ],
  "grid_page_length": 50,
  "image_field": "item_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "max_attachments": 11,
- "modified": "2025-08-13 08:44:03.850457",
+ "max_attachments": 12,
+ "modified": "2025-08-13 11:02:05.322682",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",

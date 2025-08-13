@@ -7,6 +7,15 @@ app_license = "mit"
 
 # Apps
 # ------------------
+# doc_events = {
+#     "Catalog Details": {
+#         "on_update": "mazsone_ecart.catalog_details.utils.sync_item_image_from_custom",
+#         "on_trash": "mazsone_ecart.catalog_details.utils.sync_item_image_from_custom"
+#     },
+#     "Item": {
+#         "on_update": "mazsone_ecart.catalog_details.utils.sync_custom_image_from_item"
+#     }
+# }
 
 # required_apps = []
 

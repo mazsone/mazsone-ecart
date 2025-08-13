@@ -31,7 +31,7 @@
 frappe.ui.form.on("Catalog Details", {
     refresh: function(frm) {
         // List of image fieldnames to apply styling to
-        const imageFields = ['preview_image', 'preview_image_1', 'preview_image_2', 'preview_image_3', 'preview_image_4', 'preview_image_5']; // Add more as needed
+        const imageFields = ['image_1', 'image_2', 'image_2', 'image_3', 'image_4', 'image_5', 'image_6', 'image_7','image_8', 'image_9','image_10' ]; // Add more as needed
 
         imageFields.forEach(function(fieldname) {
             const imageField = frm.fields_dict[fieldname];
