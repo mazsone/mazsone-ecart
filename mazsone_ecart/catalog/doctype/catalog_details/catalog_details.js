@@ -8,7 +8,7 @@ frappe.ui.form.on("Catalog Details", {
         frm.set_df_property("product_discount", "read_only", !frm.doc.allow_discount_edit);
 
         // List of image fieldnames to apply styling to
-        const imageFields = ['image_1', 'image_2', 'image_2', 'image_3', 'image_4', 'image_5', 'image_6', 'image_7','image_8', 'image_9','image_10' ]; // Add more as needed
+        const imageFields = ['preview_1', 'preview_2', 'preview_3', 'preview_4', 'preview_5', 'preview_6', 'preview_7','preview_8', 'preview_9','preview_10' ]; // Add more as needed
 
         imageFields.forEach(function(fieldname) {
             const imageField = frm.fields_dict[fieldname];
