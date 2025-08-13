@@ -373,30 +373,35 @@
   {
    "fieldname": "attach_1",
    "fieldtype": "Attach Image",
-   "label": "Image 1"
+   "label": "Image 1",
+   "make_attachment_public": 1
   },
   {
    "fieldname": "attach_2",
    "fieldtype": "Attach Image",
    "label": "Image 2",
+   "make_attachment_public": 1,
    "options": "attach_2"
   },
   {
    "fieldname": "attach_3",
    "fieldtype": "Attach Image",
    "label": "Image 3",
+   "make_attachment_public": 1,
    "options": "attach_3"
   },
   {
    "fieldname": "attach_4",
    "fieldtype": "Attach Image",
    "label": "Image 4",
+   "make_attachment_public": 1,
    "options": "attach_4"
   },
   {
    "fieldname": "attach_5",
    "fieldtype": "Attach Image",
    "label": "Image 5",
+   "make_attachment_public": 1,
    "options": "attach_5"
   },
   {
@@ -410,7 +415,8 @@
   {
    "fieldname": "attach_6",
    "fieldtype": "Attach Image",
-   "label": "Image 6"
+   "label": "Image 6",
+   "make_attachment_public": 1
   },
   {
    "fieldname": "image_7",
@@ -424,6 +430,7 @@
    "fieldname": "attach_7",
    "fieldtype": "Attach Image",
    "label": "Image 7",
+   "make_attachment_public": 1,
    "options": "attach_7"
   },
   {
@@ -437,7 +444,8 @@
   {
    "fieldname": "attach_8",
    "fieldtype": "Attach Image",
-   "label": "Image 8"
+   "label": "Image 8",
+   "make_attachment_public": 1
   },
   {
    "fieldname": "image_9",
@@ -450,7 +458,8 @@
   {
    "fieldname": "attach_9",
    "fieldtype": "Attach Image",
-   "label": "Image 9"
+   "label": "Image 9",
+   "make_attachment_public": 1
   },
   {
    "fieldname": "image_10",
@@ -463,7 +472,8 @@
   {
    "fieldname": "attach_10",
    "fieldtype": "Attach Image",
-   "label": "Image 10"
+   "label": "Image 10",
+   "make_attachment_public": 1
   }
  ],
  "grid_page_length": 50,
@@ -471,7 +481,7 @@
  "index_web_pages_for_search": 1,
  "links": [],
  "max_attachments": 12,
- "modified": "2025-08-13 11:02:05.322682",
+ "modified": "2025-08-13 11:20:59.659515",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",
