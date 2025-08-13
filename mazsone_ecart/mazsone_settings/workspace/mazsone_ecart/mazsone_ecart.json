@@ -1,7 +1,7 @@
 {
  "app": "mazsone_ecart",
  "charts": [],
- "content": "[{\"id\":\"WjcRQVzht3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mazsone Ecart</span>\",\"col\":12}},{\"id\":\"Qhf-jzM_M7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}},{\"id\":\"-HRB4z9T4S\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"8-lZ8mSWqn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Catalog Details\",\"col\":4}},{\"id\":\"Bc1mhVEx7L\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"CIN1C6TPij\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"RTt1L6wos_\",\"type\":\"card\",\"data\":{\"card_name\":\"Catalog Spec Docs\",\"col\":4}}]",
+ "content": "[{\"id\":\"WjcRQVzht3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mazsone Ecart</span>\",\"col\":12}},{\"id\":\"Qhf-jzM_M7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}},{\"id\":\"oDQA2hqajT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item Group\",\"col\":3}},{\"id\":\"-HRB4z9T4S\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"8-lZ8mSWqn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Catalog Details\",\"col\":4}},{\"id\":\"Bc1mhVEx7L\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"CIN1C6TPij\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"RTt1L6wos_\",\"type\":\"card\",\"data\":{\"card_name\":\"Catalog Spec Docs\",\"col\":4}}]",
  "creation": "2025-08-10 17:45:08.017015",
  "custom_blocks": [],
  "docstatus": 0,
@@ -78,7 +78,7 @@
    "is_query_report": 0,
    "label": "Slider 2",
    "link_count": 0,
-   "link_to": "Promotional Slider 1",
+   "link_to": "Slider 2",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -88,7 +88,7 @@
    "is_query_report": 0,
    "label": "Slider 3",
    "link_count": 0,
-   "link_to": "Promotional Slider 2",
+   "link_to": "Slider 3",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -124,7 +124,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-08-13 12:36:27.166063",
+ "modified": "2025-08-13 16:33:59.640536",
  "modified_by": "Administrator",
  "module": "Mazsone Settings",
  "name": "Mazsone Ecart",
@@ -136,6 +136,14 @@
  "roles": [],
  "sequence_id": 6.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Item Group",
+   "link_to": "Item Group",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
   {
    "color": "Blue",
    "doc_view": "List",

@@ -22,20 +22,20 @@
   "item_description",
   "section_break_bczw",
   "attach_details_column",
+  "preview_1",
   "image_1",
-  "attach_1",
   "column_break_jnsr",
+  "preview_2",
   "image_2",
-  "attach_2",
   "column_break_wjsi",
+  "preview_3",
   "image_3",
-  "attach_3",
   "column_break_fenp",
+  "preview_4",
   "image_4",
-  "attach_4",
   "column_break_zuan",
+  "preview_5",
   "image_5",
-  "attach_5",
   "section_break_qhhu",
   "column_break_rcrh",
   "is_slider",
@@ -54,20 +54,20 @@
   "section_break_ldtk",
   "manufacturer_label",
   "section_break_gzve",
-  "image_6",
-  "attach_6",
+  "preview_6",
+  "desc_image_1",
   "column_break_wbvz",
-  "image_7",
-  "attach_7",
+  "preview_7",
+  "desc_image_2",
   "column_break_kuzm",
-  "image_8",
-  "attach_8",
+  "preview_8",
+  "desc_image_3",
   "column_break_vwec",
-  "image_9",
-  "attach_9",
+  "preview_9",
+  "desc_image_4",
   "column_break_adno",
-  "image_10",
-  "attach_10",
+  "preview_10",
+  "desc_image_5",
   "features_table_section",
   "spec_header",
   "catalog_features",
@@ -151,35 +151,27 @@
   },
   {
    "fieldname": "image_2",
-   "fieldtype": "Image",
-   "label": "Preview Image 2",
-   "max_height": "10rem",
-   "options": "attach_2",
-   "width": "10rem"
+   "fieldtype": "Attach Image",
+   "label": "Image 2",
+   "options": "attach_2"
   },
   {
    "fieldname": "image_3",
-   "fieldtype": "Image",
-   "label": "Preview Image 3",
-   "max_height": "10rem",
-   "options": "attach_3",
-   "width": "10rem"
+   "fieldtype": "Attach Image",
+   "label": "Image 3",
+   "options": "attach_3"
   },
   {
    "fieldname": "image_4",
-   "fieldtype": "Image",
-   "label": "Preview Image 4",
-   "max_height": "10rem",
-   "options": "attach_4",
-   "width": "10rem"
+   "fieldtype": "Attach Image",
+   "label": "Image 4",
+   "options": "attach_4"
   },
   {
    "fieldname": "image_5",
-   "fieldtype": "Image",
-   "label": "Preview Image 5",
-   "max_height": "10rem",
-   "options": "attach_5",
-   "width": "10rem"
+   "fieldtype": "Attach Image",
+   "label": "Image 5",
+   "options": "attach_5"
   },
   {
    "fieldname": "column_break_vxsq",
@@ -364,6 +356,17 @@
   },
   {
    "fieldname": "image_1",
+   "fieldtype": "Attach Image",
+   "label": "Image 1"
+  },
+  {
+   "default": "0",
+   "fieldname": "allow_discount_edit",
+   "fieldtype": "Check",
+   "label": "Allow discount edit"
+  },
+  {
+   "fieldname": "preview_1",
    "fieldtype": "Image",
    "label": "Preview Image ",
    "max_height": "10rem",
@@ -371,105 +374,102 @@
    "width": "10rem"
   },
   {
-   "fieldname": "attach_1",
-   "fieldtype": "Attach Image",
-   "label": "Image 1"
-  },
-  {
-   "fieldname": "attach_2",
-   "fieldtype": "Attach Image",
-   "label": "Image 2",
-   "options": "attach_2"
-  },
-  {
-   "fieldname": "attach_3",
-   "fieldtype": "Attach Image",
-   "label": "Image 3",
-   "options": "attach_3"
-  },
-  {
-   "fieldname": "attach_4",
-   "fieldtype": "Attach Image",
-   "label": "Image 4",
-   "options": "attach_4"
-  },
-  {
-   "fieldname": "attach_5",
-   "fieldtype": "Attach Image",
-   "label": "Image 5",
-   "options": "attach_5"
-  },
-  {
-   "fieldname": "image_6",
+   "fieldname": "preview_2",
    "fieldtype": "Image",
-   "label": "Preview Image 6",
+   "label": "Preview Image 2",
+   "max_height": "10rem",
+   "options": "attach_2",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "preview_3",
+   "fieldtype": "Image",
+   "label": "Preview Image 3",
+   "max_height": "10rem",
+   "options": "attach_3",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "preview_4",
+   "fieldtype": "Image",
+   "label": "Preview Image 4",
+   "max_height": "10rem",
+   "options": "attach_4",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "preview_5",
+   "fieldtype": "Image",
+   "label": "Preview Image 5",
+   "max_height": "10rem",
+   "options": "attach_5",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "preview_6",
+   "fieldtype": "Image",
+   "label": "Desc Preview 6",
    "max_height": "10rem",
    "options": "attach_6",
    "width": "10rem"
   },
   {
-   "fieldname": "attach_6",
-   "fieldtype": "Attach Image",
-   "label": "Image 6"
-  },
-  {
-   "fieldname": "image_7",
+   "fieldname": "preview_7",
    "fieldtype": "Image",
-   "label": "Preview Image 7",
+   "label": "Desc Preview 7",
    "max_height": "10rem",
    "options": "attach_7",
    "width": "10rem"
   },
   {
-   "fieldname": "attach_7",
-   "fieldtype": "Attach Image",
-   "label": "Image 7",
-   "options": "attach_7"
-  },
-  {
-   "fieldname": "image_8",
+   "fieldname": "preview_8",
    "fieldtype": "Image",
-   "label": "Preview Image 8",
+   "label": "Desc Preview 8",
    "max_height": "10rem",
    "options": "attach_8",
    "width": "10rem"
   },
   {
-   "fieldname": "attach_8",
-   "fieldtype": "Attach Image",
-   "label": "Image 8"
-  },
-  {
-   "fieldname": "image_9",
+   "fieldname": "preview_9",
    "fieldtype": "Image",
-   "label": "Preview Image 9",
+   "label": "Desc Preview 9",
    "max_height": "10rem",
    "options": "attach_9",
    "width": "10rem"
   },
   {
-   "fieldname": "attach_9",
-   "fieldtype": "Attach Image",
-   "label": "Image 9"
-  },
-  {
-   "fieldname": "image_10",
+   "fieldname": "preview_10",
    "fieldtype": "Image",
-   "label": "Preview Image 10",
+   "label": "Desc Preview 10",
    "max_height": "10rem",
    "options": "attach_10",
    "width": "10rem"
   },
   {
-   "fieldname": "attach_10",
+   "fieldname": "desc_image_1",
    "fieldtype": "Attach Image",
-   "label": "Image 10"
+   "label": "Desc Image 1"
   },
   {
-   "default": "0",
-   "fieldname": "allow_discount_edit",
-   "fieldtype": "Check",
-   "label": "Allow discount edit"
+   "fieldname": "desc_image_2",
+   "fieldtype": "Attach Image",
+   "label": "Desc Image 2",
+   "options": "attach_7"
+  },
+  {
+   "fieldname": "desc_image_3",
+   "fieldtype": "Attach Image",
+   "label": "Desc Image 4"
+  },
+  {
+   "fieldname": "desc_image_4",
+   "fieldtype": "Attach Image",
+   "label": "Desc Image 4"
+  },
+  {
+   "fieldname": "desc_image_5",
+   "fieldtype": "Attach Image",
+   "label": "Desc Image 5"
   }
  ],
  "grid_page_length": 50,
@@ -478,7 +478,7 @@
  "links": [],
  "make_attachments_public": 1,
  "max_attachments": 11,
- "modified": "2025-08-13 15:49:53.930569",
+ "modified": "2025-08-13 16:31:49.606511",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",
