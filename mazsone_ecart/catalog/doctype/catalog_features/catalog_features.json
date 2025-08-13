@@ -16,31 +16,28 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Label",
-   "options": "Catalog Profile",
-   "reqd": 1
+   "options": "Catalog Profile"
   },
   {
    "fieldname": "attribute_name",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Name",
-   "options": "Catalog Attributes",
-   "reqd": 1
+   "options": "Catalog Attributes"
   },
   {
    "fieldname": "property_value",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Value",
-   "options": "Catalog Properties",
-   "reqd": 1
+   "options": "Catalog Properties"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-08-12 18:06:24.354121",
+ "modified": "2025-08-13 10:17:22.161341",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Features",
