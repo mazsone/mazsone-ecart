@@ -48,6 +48,7 @@
   "column_break_vxsq",
   "product_offer",
   "product_discount",
+  "allow_discount_edit",
   "section_break_tfdr",
   "description",
   "section_break_ldtk",
@@ -109,8 +110,7 @@
    "fetch_from": "item_code.item_group",
    "fieldname": "item_group",
    "fieldtype": "Data",
-   "label": "Item Group",
-   "options": "Item"
+   "label": "Item Group"
   },
   {
    "fieldname": "stock_qty",
@@ -126,8 +126,7 @@
    "fetch_from": "item_code.brand",
    "fieldname": "brand",
    "fieldtype": "Data",
-   "label": "Brand",
-   "options": "Brand"
+   "label": "Brand"
   },
   {
    "fieldname": "product_details_section",
@@ -195,7 +194,7 @@
   },
   {
    "fieldname": "product_discount",
-   "fieldtype": "Int",
+   "fieldtype": "Currency",
    "label": "Product Discount"
   },
   {
@@ -285,7 +284,8 @@
   },
   {
    "fieldname": "section_break_qhhu",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Slider Settings"
   },
   {
    "fieldname": "column_break_rcrh",
@@ -326,7 +326,8 @@
   },
   {
    "fieldname": "section_break_ldtk",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Manufacturing Details"
   },
   {
    "fieldname": "manufacturer_label",
@@ -373,35 +374,30 @@
   {
    "fieldname": "attach_1",
    "fieldtype": "Attach Image",
-   "label": "Image 1",
-   "make_attachment_public": 1
+   "label": "Image 1"
   },
   {
    "fieldname": "attach_2",
    "fieldtype": "Attach Image",
    "label": "Image 2",
-   "make_attachment_public": 1,
    "options": "attach_2"
   },
   {
    "fieldname": "attach_3",
    "fieldtype": "Attach Image",
    "label": "Image 3",
-   "make_attachment_public": 1,
    "options": "attach_3"
   },
   {
    "fieldname": "attach_4",
    "fieldtype": "Attach Image",
    "label": "Image 4",
-   "make_attachment_public": 1,
    "options": "attach_4"
   },
   {
    "fieldname": "attach_5",
    "fieldtype": "Attach Image",
    "label": "Image 5",
-   "make_attachment_public": 1,
    "options": "attach_5"
   },
   {
@@ -415,8 +411,7 @@
   {
    "fieldname": "attach_6",
    "fieldtype": "Attach Image",
-   "label": "Image 6",
-   "make_attachment_public": 1
+   "label": "Image 6"
   },
   {
    "fieldname": "image_7",
@@ -430,7 +425,6 @@
    "fieldname": "attach_7",
    "fieldtype": "Attach Image",
    "label": "Image 7",
-   "make_attachment_public": 1,
    "options": "attach_7"
   },
   {
@@ -444,8 +438,7 @@
   {
    "fieldname": "attach_8",
    "fieldtype": "Attach Image",
-   "label": "Image 8",
-   "make_attachment_public": 1
+   "label": "Image 8"
   },
   {
    "fieldname": "image_9",
@@ -458,8 +451,7 @@
   {
    "fieldname": "attach_9",
    "fieldtype": "Attach Image",
-   "label": "Image 9",
-   "make_attachment_public": 1
+   "label": "Image 9"
   },
   {
    "fieldname": "image_10",
@@ -472,16 +464,22 @@
   {
    "fieldname": "attach_10",
    "fieldtype": "Attach Image",
-   "label": "Image 10",
-   "make_attachment_public": 1
+   "label": "Image 10"
+  },
+  {
+   "default": "0",
+   "fieldname": "allow_discount_edit",
+   "fieldtype": "Check",
+   "label": "Allow discount edit"
   }
  ],
  "grid_page_length": 50,
  "image_field": "item_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "max_attachments": 12,
- "modified": "2025-08-13 11:20:59.659515",
+ "make_attachments_public": 1,
+ "max_attachments": 11,
+ "modified": "2025-08-13 12:30:25.723095",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",

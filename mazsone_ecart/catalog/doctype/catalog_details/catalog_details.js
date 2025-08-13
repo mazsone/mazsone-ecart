@@ -30,6 +30,10 @@
 
 frappe.ui.form.on("Catalog Details", {
     refresh: function(frm) {
+
+        // Set product_discount read-only initially
+        frm.set_df_property("product_discount", "read_only", !frm.doc.allow_discount_edit);
+
         // List of image fieldnames to apply styling to
         const imageFields = ['image_1', 'image_2', 'image_2', 'image_3', 'image_4', 'image_5', 'image_6', 'image_7','image_8', 'image_9','image_10' ]; // Add more as needed
 
@@ -43,6 +47,26 @@ frappe.ui.form.on("Catalog Details", {
                 });
             }
         });
+    },
+
+        allow_discount_edit: function(frm) {
+        // Toggle read-only based on checkbox
+        frm.set_df_property("product_discount", "read_only", !frm.doc.allow_discount_edit);
+    },
+
+    price: function(frm) {
+        frm.trigger("calculate_discount");
+    },
+    product_offer: function(frm) {
+        frm.trigger("calculate_discount");
+    },
+    calculate_discount: function(frm) {
+        if (frm.doc.price && frm.doc.product_offer >= 0) {
+            let discount_price = frm.doc.price - (frm.doc.price * frm.doc.product_offer / 100);
+            frm.set_value("product_discount", discount_price);
+        } else {
+            frm.set_value("product_discount", 0);
+        }
     }
 });
 
