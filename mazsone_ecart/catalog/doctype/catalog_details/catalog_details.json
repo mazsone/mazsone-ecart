@@ -11,19 +11,20 @@
   "product_details_section",
   "item_code",
   "item_name",
-  "item_image",
   "item_group",
   "brand",
+  "item_image",
   "column_break_mjpq",
   "display_name",
   "stock_qty",
   "price",
+  "image",
   "section_break_yigs",
   "item_description",
   "section_break_bczw",
   "attach_details_column",
   "preview_image",
-  "image",
+  "image_1",
   "column_break_jnsr",
   "preview_image_1",
   "image_2",
@@ -36,22 +37,37 @@
   "column_break_zuan",
   "preview_image_4",
   "image_5",
-  "slider_settings_section",
-  "is_slider",
-  "column_break_smgw",
-  "slider_offer",
-  "slider_discount",
   "section_break_qhhu",
+  "column_break_rcrh",
+  "is_slider",
   "column_break_zvnm",
   "is_popular",
-  "is_top_rated",
+  "hot_gadgets",
   "is_discount",
-  "column_break_rcrh",
+  "is_top_rated",
+  "best_sellers",
   "column_break_vxsq",
   "product_offer",
   "product_discount",
   "section_break_tfdr",
   "description",
+  "section_break_ldtk",
+  "manufacturer_label",
+  "section_break_gzve",
+  "desc_image_view_1",
+  "desc_image_1",
+  "column_break_wbvz",
+  "desc_image_view_2",
+  "desc_image_2",
+  "column_break_kuzm",
+  "desc_image_view_3",
+  "desc_image_3",
+  "column_break_vwec",
+  "desc_image_view_4",
+  "desc_image_4",
+  "column_break_adno",
+  "desc_image_view_5",
+  "desc_image_5",
   "features_table_section",
   "spec_header",
   "catalog_features",
@@ -137,11 +153,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "image",
-   "fieldtype": "Attach Image",
-   "label": "Image(default image)"
-  },
-  {
    "fieldname": "image_2",
    "fieldtype": "Attach Image",
    "label": "Image 2"
@@ -172,11 +183,6 @@
    "label": "Product Offer"
   },
   {
-   "fieldname": "slider_offer",
-   "fieldtype": "Data",
-   "label": "Slider Offer"
-  },
-  {
    "fieldname": "product_discount",
    "fieldtype": "Int",
    "label": "Product Discount"
@@ -191,11 +197,6 @@
    "fieldname": "is_slider",
    "fieldtype": "Check",
    "label": "Show in Slider"
-  },
-  {
-   "fieldname": "slider_discount",
-   "fieldtype": "Data",
-   "label": "Slider Discount"
   },
   {
    "default": "0",
@@ -348,21 +349,129 @@
    "width": "10rem"
   },
   {
-   "fieldname": "slider_settings_section",
+   "fieldname": "section_break_gzve",
    "fieldtype": "Section Break",
-   "label": "Slider Settings"
+   "label": "Manufacturer Images"
   },
   {
-   "fieldname": "column_break_smgw",
+   "fieldname": "desc_image_view_1",
+   "fieldtype": "Image",
+   "label": "Describtion Image",
+   "max_height": "10rem",
+   "options": "image",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "desc_image_1",
+   "fieldtype": "Attach Image",
+   "label": "Desc Image"
+  },
+  {
+   "fieldname": "section_break_ldtk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "manufacturer_label",
+   "fieldtype": "Data",
+   "label": "Manufacturer Label",
+   "placeholder": "From the manufacturer"
+  },
+  {
+   "fieldname": "column_break_wbvz",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "desc_image_view_2",
+   "fieldtype": "Image",
+   "label": "Image 2",
+   "max_height": "10rem",
+   "options": "image",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "desc_image_2",
+   "fieldtype": "Attach Image",
+   "label": "Image 2"
+  },
+  {
+   "fieldname": "column_break_kuzm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "desc_image_view_3",
+   "fieldtype": "Image",
+   "label": "Image 3",
+   "max_height": "10rem",
+   "options": "image",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "desc_image_3",
+   "fieldtype": "Attach Image",
+   "label": "Image 3"
+  },
+  {
+   "fieldname": "column_break_vwec",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "desc_image_view_4",
+   "fieldtype": "Image",
+   "label": "Image 4",
+   "max_height": "10rem",
+   "options": "image",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "desc_image_4",
+   "fieldtype": "Attach Image",
+   "label": "Image 4"
+  },
+  {
+   "fieldname": "column_break_adno",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "desc_image_view_5",
+   "fieldtype": "Image",
+   "label": "Image 5",
+   "max_height": "10rem",
+   "options": "image",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "desc_image_5",
+   "fieldtype": "Attach Image",
+   "label": "Image 5"
+  },
+  {
+   "default": "0",
+   "fieldname": "hot_gadgets",
+   "fieldtype": "Check",
+   "label": "Hot Gadgets"
+  },
+  {
+   "default": "0",
+   "fieldname": "best_sellers",
+   "fieldtype": "Check",
+   "label": "Best Sellers"
+  },
+  {
+   "fieldname": "image_1",
+   "fieldtype": "Attach Image",
+   "label": "Image 1"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image"
   }
  ],
  "grid_page_length": 50,
  "image_field": "item_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "max_attachments": 6,
- "modified": "2025-08-12 18:17:44.827954",
+ "max_attachments": 11,
+ "modified": "2025-08-13 08:44:03.850457",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",
