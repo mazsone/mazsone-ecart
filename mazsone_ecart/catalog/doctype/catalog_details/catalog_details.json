@@ -409,7 +409,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 6",
    "max_height": "10rem",
-   "options": "desc_image_6",
+   "options": "desc_image_1",
    "width": "10rem"
   },
   {
@@ -417,7 +417,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 7",
    "max_height": "10rem",
-   "options": "desc_image_7",
+   "options": "desc_image_2",
    "width": "10rem"
   },
   {
@@ -425,7 +425,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 8",
    "max_height": "10rem",
-   "options": "desc_image_8",
+   "options": "desc_image_3",
    "width": "10rem"
   },
   {
@@ -433,7 +433,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 9",
    "max_height": "10rem",
-   "options": "desc_image_9",
+   "options": "desc_image_4",
    "width": "10rem"
   },
   {
@@ -441,7 +441,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 10",
    "max_height": "10rem",
-   "options": "desc_image_10",
+   "options": "desc_image_5",
    "width": "10rem"
   },
   {
@@ -477,7 +477,7 @@
  "links": [],
  "make_attachments_public": 1,
  "max_attachments": 11,
- "modified": "2025-08-13 16:40:26.936179",
+ "modified": "2025-08-13 17:13:08.272374",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",
