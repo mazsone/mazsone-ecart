@@ -152,8 +152,7 @@
   {
    "fieldname": "image_2",
    "fieldtype": "Attach Image",
-   "label": "Image 2",
-   "options": "attach_2"
+   "label": "Image 2"
   },
   {
    "fieldname": "image_3",
@@ -370,7 +369,7 @@
    "fieldtype": "Image",
    "label": "Preview Image ",
    "max_height": "10rem",
-   "options": "attach_1",
+   "options": "image_1",
    "width": "10rem"
   },
   {
@@ -378,7 +377,7 @@
    "fieldtype": "Image",
    "label": "Preview Image 2",
    "max_height": "10rem",
-   "options": "attach_2",
+   "options": "image_2",
    "width": "10rem"
   },
   {
@@ -386,7 +385,7 @@
    "fieldtype": "Image",
    "label": "Preview Image 3",
    "max_height": "10rem",
-   "options": "attach_3",
+   "options": "image_3",
    "width": "10rem"
   },
   {
@@ -394,7 +393,7 @@
    "fieldtype": "Image",
    "label": "Preview Image 4",
    "max_height": "10rem",
-   "options": "attach_4",
+   "options": "image_4",
    "width": "10rem"
   },
   {
@@ -402,7 +401,7 @@
    "fieldtype": "Image",
    "label": "Preview Image 5",
    "max_height": "10rem",
-   "options": "attach_5",
+   "options": "image_5",
    "width": "10rem"
   },
   {
@@ -410,7 +409,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 6",
    "max_height": "10rem",
-   "options": "attach_6",
+   "options": "desc_image_6",
    "width": "10rem"
   },
   {
@@ -418,7 +417,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 7",
    "max_height": "10rem",
-   "options": "attach_7",
+   "options": "desc_image_7",
    "width": "10rem"
   },
   {
@@ -426,7 +425,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 8",
    "max_height": "10rem",
-   "options": "attach_8",
+   "options": "desc_image_8",
    "width": "10rem"
   },
   {
@@ -434,7 +433,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 9",
    "max_height": "10rem",
-   "options": "attach_9",
+   "options": "desc_image_9",
    "width": "10rem"
   },
   {
@@ -442,7 +441,7 @@
    "fieldtype": "Image",
    "label": "Desc Preview 10",
    "max_height": "10rem",
-   "options": "attach_10",
+   "options": "desc_image_10",
    "width": "10rem"
   },
   {
@@ -478,7 +477,7 @@
  "links": [],
  "make_attachments_public": 1,
  "max_attachments": 11,
- "modified": "2025-08-13 16:31:49.606511",
+ "modified": "2025-08-13 16:40:26.936179",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",
