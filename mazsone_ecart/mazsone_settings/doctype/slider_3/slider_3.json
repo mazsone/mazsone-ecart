@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:slider_name",
+ "creation": "2025-08-13 12:01:47.275682",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "slider_name",
+  "section_break_aabd",
+  "column_break_nkgn",
+  "current_slider",
+  "section_break_cfce",
+  "sliders_tbl"
+ ],
+ "fields": [
+  {
+   "fieldname": "slider_name",
+   "fieldtype": "Data",
+   "label": "Slider Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_nkgn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cfce",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sliders_tbl",
+   "fieldtype": "Table",
+   "label": "Sliders",
+   "options": "Slider 3 items"
+  },
+  {
+   "fieldname": "section_break_aabd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "current_slider",
+   "fieldtype": "Check",
+   "label": "Current Slider",
+   "sticky": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-13 12:44:32.420649",
+ "modified_by": "Administrator",
+ "module": "Mazsone Settings",
+ "name": "Slider 3",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

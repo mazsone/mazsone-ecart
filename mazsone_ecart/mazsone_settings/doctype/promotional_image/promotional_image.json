@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:featured_label",
+ "creation": "2025-08-13 11:43:36.522378",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "featured_label",
+  "make_this_default",
+  "table_hxwm"
+ ],
+ "fields": [
+  {
+   "default": "Featured Brands",
+   "fieldname": "featured_label",
+   "fieldtype": "Data",
+   "label": "Featured Label",
+   "placeholder": "Featured Brands",
+   "unique": 1
+  },
+  {
+   "fieldname": "table_hxwm",
+   "fieldtype": "Table",
+   "options": "Promotional Image Items"
+  },
+  {
+   "default": "0",
+   "fieldname": "make_this_default",
+   "fieldtype": "Check",
+   "label": "Make this Default"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-13 12:20:37.368147",
+ "modified_by": "Administrator",
+ "module": "Mazsone Settings",
+ "name": "Promotional Image",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

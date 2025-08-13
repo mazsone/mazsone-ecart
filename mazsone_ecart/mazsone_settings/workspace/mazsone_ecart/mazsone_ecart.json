@@ -1,7 +1,7 @@
 {
  "app": "mazsone_ecart",
  "charts": [],
- "content": "[{\"id\":\"WjcRQVzht3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mazsone Ecart</span>\",\"col\":12}},{\"id\":\"Qhf-jzM_M7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}},{\"id\":\"-HRB4z9T4S\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"8-lZ8mSWqn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Catalog Details\",\"col\":4}},{\"id\":\"Bc1mhVEx7L\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"RTt1L6wos_\",\"type\":\"card\",\"data\":{\"card_name\":\"Catalog Spec Docs\",\"col\":4}}]",
+ "content": "[{\"id\":\"WjcRQVzht3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mazsone Ecart</span>\",\"col\":12}},{\"id\":\"Qhf-jzM_M7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}},{\"id\":\"-HRB4z9T4S\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"8-lZ8mSWqn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Catalog Details\",\"col\":4}},{\"id\":\"Bc1mhVEx7L\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"CIN1C6TPij\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"RTt1L6wos_\",\"type\":\"card\",\"data\":{\"card_name\":\"Catalog Spec Docs\",\"col\":4}}]",
  "creation": "2025-08-10 17:45:08.017015",
  "custom_blocks": [],
  "docstatus": 0,
@@ -9,7 +9,7 @@
  "for_user": "",
  "hide_custom": 0,
  "icon": "retail",
- "idx": 0,
+ "idx": 1,
  "indicator_color": "blue",
  "is_hidden": 0,
  "label": "Mazsone Ecart",
@@ -63,9 +63,68 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Slider 2",
+   "link_count": 0,
+   "link_to": "Promotional Slider 1",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Slider 3",
+   "link_count": 0,
+   "link_to": "Promotional Slider 2",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Brand Logo",
+   "link_count": 0,
+   "link_to": "Brand Logo",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Special Image",
+   "link_count": 0,
+   "link_to": "Promotional Special",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Promotional Images",
+   "link_count": 0,
+   "link_to": "Promotional Image",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2025-08-12 16:57:05.853478",
+ "modified": "2025-08-13 12:36:27.166063",
  "modified_by": "Administrator",
  "module": "Mazsone Settings",
  "name": "Mazsone Ecart",
