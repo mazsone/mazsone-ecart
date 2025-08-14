@@ -1,13 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:display_name",
+ "autoname": "field:item_name",
  "creation": "2025-08-10 17:29:06.546385",
  "default_view": "List",
  "doctype": "DocType",
  "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
+  "item_details_tab",
   "product_details_section",
   "item_code",
   "item_name",
@@ -15,11 +16,11 @@
   "brand",
   "item_image",
   "column_break_mjpq",
-  "display_name",
   "stock_qty",
   "price",
   "section_break_yigs",
   "item_description",
+  "product_image_tab",
   "section_break_bczw",
   "attach_details_column",
   "preview_1",
@@ -36,20 +37,23 @@
   "column_break_zuan",
   "preview_5",
   "image_5",
+  "slider_settings_tab",
   "section_break_qhhu",
   "column_break_rcrh",
   "is_slider",
   "slider_title",
   "slider_highlighter",
+  "column_break_vxsq",
+  "product_offer",
+  "product_discount",
+  "section_break_ckhk",
   "column_break_zvnm",
   "is_popular",
   "hot_gadgets",
   "is_discount",
   "is_top_rated",
   "best_sellers",
-  "column_break_vxsq",
-  "product_offer",
-  "product_discount",
+  "product_desc_tab",
   "section_break_tfdr",
   "description",
   "section_break_ldtk",
@@ -69,9 +73,11 @@
   "column_break_adno",
   "preview_10",
   "desc_image_5",
+  "spec_tab",
   "features_table_section",
   "spec_header",
   "catalog_features",
+  "seo_tab",
   "product_seo_details_section",
   "slug",
   "seo_caption",
@@ -92,14 +98,7 @@
    "fetch_from": "item_code.item_name",
    "fieldname": "item_name",
    "fieldtype": "Data",
-   "label": "Item Name"
-  },
-  {
-   "fieldname": "display_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Display Name",
-   "reqd": 1,
+   "label": "Item Name",
    "unique": 1
   },
   {
@@ -474,6 +473,40 @@
    "fieldname": "slider_highlighter",
    "fieldtype": "Data",
    "label": "Slider Highlighter"
+  },
+  {
+   "fieldname": "item_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Item Details"
+  },
+  {
+   "fieldname": "product_image_tab",
+   "fieldtype": "Tab Break",
+   "label": "Product Image"
+  },
+  {
+   "fieldname": "slider_settings_tab",
+   "fieldtype": "Tab Break",
+   "label": "Slider Settings"
+  },
+  {
+   "fieldname": "product_desc_tab",
+   "fieldtype": "Tab Break",
+   "label": "Product Desc"
+  },
+  {
+   "fieldname": "spec_tab",
+   "fieldtype": "Tab Break",
+   "label": "Spec"
+  },
+  {
+   "fieldname": "seo_tab",
+   "fieldtype": "Tab Break",
+   "label": "Seo"
+  },
+  {
+   "fieldname": "section_break_ckhk",
+   "fieldtype": "Section Break"
   }
  ],
  "grid_page_length": 50,
@@ -482,7 +515,7 @@
  "links": [],
  "make_attachments_public": 1,
  "max_attachments": 11,
- "modified": "2025-08-14 20:00:08.797533",
+ "modified": "2025-08-14 23:50:45.012624",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",
