@@ -39,6 +39,8 @@
   "section_break_qhhu",
   "column_break_rcrh",
   "is_slider",
+  "slider_title",
+  "slider_highlighter",
   "column_break_zvnm",
   "is_popular",
   "hot_gadgets",
@@ -48,7 +50,6 @@
   "column_break_vxsq",
   "product_offer",
   "product_discount",
-  "allow_discount_edit",
   "section_break_tfdr",
   "description",
   "section_break_ldtk",
@@ -359,12 +360,6 @@
    "label": "Image 1"
   },
   {
-   "default": "0",
-   "fieldname": "allow_discount_edit",
-   "fieldtype": "Check",
-   "label": "Allow discount edit"
-  },
-  {
    "fieldname": "preview_1",
    "fieldtype": "Image",
    "label": "Preview Image ",
@@ -469,6 +464,16 @@
    "fieldname": "desc_image_5",
    "fieldtype": "Attach Image",
    "label": "Desc Image 5"
+  },
+  {
+   "fieldname": "slider_title",
+   "fieldtype": "Data",
+   "label": "Slider Title"
+  },
+  {
+   "fieldname": "slider_highlighter",
+   "fieldtype": "Data",
+   "label": "Slider Highlighter"
   }
  ],
  "grid_page_length": 50,
@@ -477,7 +482,7 @@
  "links": [],
  "make_attachments_public": 1,
  "max_attachments": 11,
- "modified": "2025-08-13 17:13:08.272374",
+ "modified": "2025-08-14 20:00:08.797533",
  "modified_by": "Administrator",
  "module": "Catalog",
  "name": "Catalog Details",

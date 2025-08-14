@@ -15,8 +15,10 @@
   "slogan",
   "theme",
   "column_break_rmqt",
-  "price",
-  "offer_price"
+  "offer_price",
+  "actual_price",
+  "percentage",
+  "product_link"
  ],
  "fields": [
   {
@@ -61,14 +63,9 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "price",
-   "fieldtype": "Data",
-   "label": "Price"
-  },
-  {
    "fieldname": "offer_price",
    "fieldtype": "Data",
-   "label": "offer Price"
+   "label": "offer Price  (eg: 7,000)"
   },
   {
    "fieldname": "order_sequence",
@@ -80,12 +77,27 @@
    "fieldtype": "Select",
    "label": "Layout",
    "options": "Option - 1\nOption - 2\nOption - 3\nOption - 4\nOption - 5"
+  },
+  {
+   "fieldname": "actual_price",
+   "fieldtype": "Data",
+   "label": "Actual Price (eg: 10,000)"
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Data",
+   "label": "percentage  (eg: 10% or 10% limited stock )"
+  },
+  {
+   "fieldname": "product_link",
+   "fieldtype": "Data",
+   "label": "product link"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-13 12:40:56.019691",
+ "modified": "2025-08-14 20:09:44.877502",
  "modified_by": "Administrator",
  "module": "Mazsone Settings",
  "name": "Slider 2",
