@@ -1,14 +1,24 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:slider_name",
  "creation": "2025-08-13 11:34:26.795862",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "slider_tab",
+  "slider_name",
+  "slider_base",
+  "column_break_bise",
   "order_sequence",
+  "section_break_iait",
+  "layout",
   "background",
   "product_image",
-  "layout",
+  "column_break_ohpn",
+  "background_preview",
+  "product_preview",
+  "detailed_tab",
   "section_break_fhlt",
   "title",
   "describtion",
@@ -76,7 +86,7 @@
    "fieldname": "layout",
    "fieldtype": "Select",
    "label": "Layout",
-   "options": "Option - 1\nOption - 2\nOption - 3\nOption - 4\nOption - 5"
+   "options": "Layout - 1\nLayout - 2\nLayout - 3\nLayout - 4\nLayout - 5"
   },
   {
    "fieldname": "actual_price",
@@ -92,15 +102,66 @@
    "fieldname": "product_link",
    "fieldtype": "Data",
    "label": "product link"
+  },
+  {
+   "fieldname": "slider_base",
+   "fieldtype": "Select",
+   "label": "slider",
+   "options": "Slider - 1\nSlider - 2\nSlider - 3\nSlider - 4"
+  },
+  {
+   "fieldname": "column_break_bise",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_iait",
+   "fieldtype": "Section Break",
+   "label": "Image"
+  },
+  {
+   "fieldname": "column_break_ohpn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "background_preview",
+   "fieldtype": "Image",
+   "in_preview": 1,
+   "label": "Background preview",
+   "max_height": "15rem",
+   "options": "background",
+   "width": "10rem"
+  },
+  {
+   "fieldname": "product_preview",
+   "fieldtype": "Image",
+   "label": "Product preview",
+   "options": "product_image"
+  },
+  {
+   "fieldname": "slider_tab",
+   "fieldtype": "Tab Break",
+   "label": "Slider"
+  },
+  {
+   "fieldname": "slider_name",
+   "fieldtype": "Data",
+   "label": "Slider Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "detailed_tab",
+   "fieldtype": "Tab Break",
+   "label": "Detailed"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-14 20:09:44.877502",
+ "modified": "2025-08-15 00:17:43.312348",
  "modified_by": "Administrator",
  "module": "Mazsone Settings",
  "name": "Slider 2",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
